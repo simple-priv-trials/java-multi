@@ -7,7 +7,7 @@ pipeline {
 	stages {
 		stage('Checkout') {
 			steps {
-				git branch: 'main', changelog: false, poll: false, url: 'https://github.com/simple-priv-trials/java-multi.git'
+				git branch: 'main', url: 'https://github.com/simple-priv-trials/java-multi.git'
 			}
 		}
 
